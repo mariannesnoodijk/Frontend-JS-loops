@@ -6,9 +6,10 @@
 // Hoera!
 // ==========================================
 
-
-
-
+console.log("Opdracht 1:");
+for( let i = 0; i < 3; i++) {
+    console.log("Hoera!");
+}
 
 // ==========================================
 // Opdracht 2. Maak een for-loop die tijdens iedere herhaling de waarde van i logt in de zin: "De waarde van i is [nummer]"
@@ -20,9 +21,10 @@
 // De waarde van i is: 4
 // ==========================================
 
-
-
-
+console.log("Opdracht 2:");
+for( let i = 0; i < 5; i++) {
+    console.log("De waarde van i is " + i);
+}
 
 // ==========================================
 // Opdracht 3a. Maak een for-loop die de waarde van i logt. De loop begint bij 2 (!) en loopt tot en met 10.
@@ -38,8 +40,10 @@
 // 10
 // ==========================================
 
-
-
+console.log("Opdracht 3a:");
+for ( let i = 2; i <= 10; i++) {
+    console.log(i);
+}
 
 
 // ==========================================
@@ -56,8 +60,10 @@
 // 70
 // ==========================================
 
-
-
+console.log("Opdracht 3b:");
+for (let i = 2; i <= 10; i++) {
+    console.log(i*7);
+}
 
 
 // ==========================================
@@ -74,9 +80,10 @@
 // Wanneer een hond 10 jaar is, staat dat gelijk aan 70 mensenjaren.
 // ==========================================
 
-
-
-
+console.log("Opdracht 3c:");
+for (let i = 2; i <= 10; i++) {
+    console.log("Wanneer een hond " + i + " jaar is, staat dat gelijk aan " + i*7 + " mensenjaren.");
+}
 
 // ==========================================
 // Bonusopdracht. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal EVEN of ONEVEN is.
@@ -92,6 +99,12 @@
 // Tip 2: Een getal is EVEN als je het deelt door 2 en er blijft niets over... Doet dit nog geen belletje rinkelen? Google dan eens naar 'MDN webdocs remainder operator'.
 // ==========================================
 
-
+for (let i = 0; i < 16; i++) {
+    if (i % 2 === 0) {
+        console.log(i + " is even.")
+    } else {
+        console.log(i + " is oneven.")
+    }
+}
 
 
